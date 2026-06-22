@@ -115,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div id="profile-cover" > 
     <div id="profile-namecard" class="profile-wrapper wrapper-light">
       <div id="my-pic" class="profile-col profile-col-1">
-        <img id="profile-avatar" src="images/Shuhan_avater.jpg" alt="Me" class="circle-img border-dark"-/>
+        <img id="profile-avatar" src="images/avatar.png" alt="Me" class="circle-img border-dark"/>
       </div>
       <div id="my-contact" class="profile-col profile-col-2">
         <div id="my-name" class="text-grey-dark">
@@ -227,9 +227,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>
       I am currently a first-year Master’s student in
                          <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>,
-                        and my research focuses on Large Language Model, Efficient LLMs and Reinforcement Learning. Now I work as a Research Intern at <a href="https://www.tencent.com/zh-cn/">LLM department of Hunyuan, Tencent</a>.
- 
-                        I got my Bachelor's degree of Software Engineering in CUG between 2021-2025. At mean time, I worked as a LLM algorithm intern at  <a href="https://www.bytedance.com/zh/">ByteDance</a> and <a href="https://home.baidu.com/">Baidu</a>.
+                        and my research focuses on Large Language Model, Efficient LLMs and Reinforcement Learning. Now I work as an intern at <a href="https://seed.bytedance.com/zh/">Seed Foundation Model Team, Bytedance</a>. Additionally, I previously participated in the algorithm development of HY 3.0 Preview as an intern in   <a href="https://hunyuan.tencent.com/">Hunyuan LLM, Tencent</a>.
+                        I got my Bachelor's degree of Software Engineering in CUG between 2021-2025. At mean time, I also worked as a LLM algorithm intern at  <a href="https://www.bytedance.com/zh/">ByteDance</a> and <a href="https://home.baidu.com/">Baidu</a>.
                         I am actively seeking opportunities in both academia and industry. If you are interested to chat with me, feel free to drop me an email.
 
       <br>
@@ -306,15 +305,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </h1>
         <div class="timeline-item">
           <div class="timeline-date">
+            <img class="social-icon" src="images/Douyin.jpg"/>
+            May, 2026 - Present
+          </div>
+          <div class="timeline-title">
+            LLM Algorithm Intern @ <a href="https://seed.bytedance.com/" target="_blank">Seed, Bytedance</a>
+          </div>
+          <div class="timeline-desc">
+            <div class="timeline-host">
+              Participated in post-training (RL/OPD) for Seed Base model in audio and video domain.
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">
             <img class="social-icon" src="images/Tencent.jpg"/>
-            Dec, 2025 - Now
+            Dec, 2025 - May, 2026
           </div>
           <div class="timeline-title">
             LLM Research Intern @ <a href="https://www.tencent.com/zh-cn/" target="_blank">Tencent Hunyuan</a>
           </div>
           <div class="timeline-desc">
             <div class="timeline-host">
-             Worked on general-purpose base model post training（RL） in knowledge-based QA Topic.
+             Participated in base model's post training of Hy3.0 Preview in knowledge-based QA Topic.
             </div>
           </div>
         </div>
@@ -365,6 +379,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="research-item" style="display: flex; width: 100%; max-width: 900px; padding: 25px; border: 1px solid #ddd; border-radius: 12px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); align-items: flex-start;">
       <div class="research-left" style="flex-shrink: 0; margin-right: 25px;">
+        <img class="social-icon" src="images/Douyin.jpg" style="width: 100px; height: 100px; object-fit: contain;"/>
+      </div>
+      <div class="research-right" style="flex-grow: 1;">
+        <div class="research-title" style="font-weight: bold; font-size: 15pt; margin-bottom: 15px;">
+          Bytedance - Seed Foundation Model Team
+        </div>
+        <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
+          <li><b style="color:#2176FF;">LLM Post-training:</b> Worked on post-training methods for large language models, focusing on OPD and RL training for base model in audio and video domain.</li>
+          <li><b style="color:#2176FF;">Data Augmentation:</b> Constructing AudioQA data augmentation pipeline for base model SFT and RL training.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="research-item" style="display: flex; width: 100%; max-width: 900px; padding: 25px; border: 1px solid #ddd; border-radius: 12px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); align-items: flex-start;">
+      <div class="research-left" style="flex-shrink: 0; margin-right: 25px;">
         <img class="social-icon" src="images/Tencent.jpg" style="width: 100px; height: 100px; object-fit: contain;"/>
       </div>
       <div class="research-right" style="flex-grow: 1;">
@@ -372,9 +401,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Tencent - Hunyuan Foundation Model Team
         </div>
         <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
-          <li><b style="color:#2176FF;">Knowledge QA Post-training with Hallucination Reduction:</b> Leveraged SFT + RLVR and content based detection reward to optimize QA performance; improved accuracy on internal and open benchmarks about ~5-10%.</li>
-          <li><b style="color:#2176FF;">Knowledge-Aware Reward Modeling via Rubrics:</b> Built a knowledge-centric reward framework using knowledge extraction and rubric-based evaluation;  reducing atomic-level hallucinations significantly.</li>
-          <li><b style="color:#2176FF;">Adaptive Reasoning via Fast-Slow Thinking Fusion:</b> Combined SFT and RL to train fast/slow reasoning modes and introduced difficulty-aware rewards for adaptive switching.</li>
+          <li><b style="color:#2176FF;">Knowledge QA Post-training:</b> Improved Hunyuan's knowledge QA ability with SFT, RLVR, and hallucination-aware rewards, raising accuracy by ~5-10% on internal and open benchmarks.</li>
+          <li><b style="color:#2176FF;">Reward Modeling & Reasoning:</b> Built rubric-based knowledge reward modeling and trained adaptive fast/slow reasoning modes for more reliable responses.</li>
         </ul>
       </div>
     </div>
@@ -388,10 +416,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Bytedance - Flow Group
         </div>
         <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
-          <li><b style="color:#2176FF;">Agentic RAG via SearchRL: </b>Trained a  RAG Agent using SearchRL with LLM-as-a-Judge, format rewards, and search-based rewards; improved online accuracy by ~10%.</li>
-          <li><b style="color:#2176FF;">Automated Embedding Training Pipeline: </b>Developed a full-stack pipeline (from data processing to evaluation) for BGE models; improved FAQ retrieval recall by ~8% and enabled scalable reuse across teams.</li>
-          <li><b style="color:#2176FF;">High-Accuracy Intent Classification with Data Feedback Loop: </b>Trained an intent classification model via SFT and iterative bad-case mining + data synthesis; achieved 96% (HR) and 94.5% (CS) accuracy in production.</li>
-          <li><b style="color:#2176FF;">Topic Tree-Based Query Rewriting for RAG: </b>Constructed hierarchical topic trees via unsupervised clustering and used them for query rewriting and dual filtering; increased interception rate by ~5% and reached 75% overall.</li>
+          <li><b style="color:#2176FF;">Agentic RAG & Retrieval:</b> Trained a SearchRL-based RAG agent and built an automated BGE embedding pipeline, improving online QA accuracy and FAQ retrieval recall.</li>
+          <li><b style="color:#2176FF;">Intent & Query Understanding:</b> Developed production intent classification and topic-tree query rewriting systems, improving routing accuracy and RAG interception performance.</li>
         </ul>
       </div>
     </div>
@@ -405,8 +431,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           Baidu  - ACG Group
         </div>
         <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
-          <li><b style="color:#2176FF;">Hierarchical Summarization for Medical RAG: </b>Designed a summary-tree framework with hierarchical aggregation over 3k+ medical documents; improved RAG QA accuracy by ~20% and enhanced knowledge structuring. </li>
-          <li><b style="color:#2176FF;">Speech Model Fine-tuning for Medical Dialogue Systems: </b>Fine-tuned ASR models with LoRA and deployed end-to-end systems; improved recognition accuracy from 85.1% to 98.7% and dialect recognition from 61.8% to 87.3%.</li>
+          <li><b style="color:#2176FF;">Medical RAG Summarization:</b> Designed a hierarchical summary-tree framework over 3k+ medical documents, improving QA accuracy and knowledge organization.</li>
+          <li><b style="color:#2176FF;">Medical Speech Systems:</b> Fine-tuned ASR models with LoRA and deployed end-to-end dialogue systems, substantially improving recognition and dialect robustness.</li>
         </ul>
       </div>
     </div>
@@ -421,7 +447,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </h3>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; font-size: 11pt; line-height: 1.8;">
     <div style="display: flex; align-items: flex-start;">
-      My research focuses on LLM post-training, especially reinforcement learning (RL) and supervised fine-tuning (SFT). I have extensive experience training large-scale models (200B+ parameters) and scaling training across GPU clusters with hundreds of GPUs. Beyond foundational model research, I have also led LLM fine-tuning and deployment in real-world production scenarios.
+      My research focuses on LLM post-training, especially reinforcement learning (RL) and supervised fine-tuning (SFT). I have extensive experience training large-scale models (500B+ parameters) and scaling training across GPU clusters with hundreds of GPUs. Beyond foundational model research, I have also led LLM fine-tuning and deployment in real-world production scenarios.
     </div>
   </div>
 </div>
@@ -451,10 +477,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </font>
         </div>
         <div class="publish">
-          <span class="place">ACL ARR Mar 2026 </span>
+          <span class="place">ACL ARR May 2026 </span>
           <span class="place"></span>
         </div>
-        <b>NLP Top Conference (Under Review)</b>
+        <b>Data Mining Top Conference (Under Review)</b>
       </div>
     </div>
 
@@ -474,7 +500,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </font>
         </div>
         <div class="publish">
-          <span class="place">ACL ARR Mar 2026</span>
+          <span class="place">ACL ARR May 2026</span>
           <span class="place"></span>
         </div>
         <b>NLP Top Conference (Under Review)</b>
